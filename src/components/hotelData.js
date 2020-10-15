@@ -1,33 +1,33 @@
 export const hotelData = [
   {
     id: 1,
-    city: "maldives",
+    hotel: "maldives beach",
     img: "./img/maldives.jpg",
-    name: "maldives resort",
+    location: "maldives",
     info:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
   },
   {
     id: 2,
-    city: "porto",
+    hotel: "porto hotel",
     img: "./img/porto.jpg",
-    name: "porto hotel",
+    location: "porto",
     info:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
   },
   {
     id: 3,
-    city: "rio",
+    hotel: "rio hotel",
     img: "./img/rio.jpg",
-    name: "rio hotel",
+    location: "rio de janeiro",
     info:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
   },
   {
     id: 4,
-    city: "turkey",
+    hotel: "turkey resort",
     img: "./img/turkey.jpg",
-    name: "turkey hotel",
+    location: "turkey",
     info:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
   }
