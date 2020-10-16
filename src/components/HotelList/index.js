@@ -7,6 +7,13 @@ class HotelList extends Component {
     state = {
         hotels: hotelData
     }
+    removeHotel = id => {
+        const {hotels} = this.state
+        const sortedHotels = hotels.filter(hotel => hotel.id !== id)
+        this.setState({
+            hotels: sortedHotels
+        })
+    }
     render() {
         const { hotels } = this.state;
         
@@ -14,7 +21,7 @@ class HotelList extends Component {
             <section className="hotelList">
                 {hotels.map(hotel => {
                     return (
-                        <Hotel key={hotel.id} hotel={hotel} />
+                        <Hotel key={hotel.id} hotel={hotel} removeHotel={this.removeHotel}/>
                     )
                 }
                 )}
