@@ -30,5 +30,37 @@ export const hotelData = [
     location: "turkey",
     info:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+  },
+  {
+    id: 5,
+    hotel: "Saint-Tropez Hotel",
+    img: "./img/france.jpg",
+    location: "france",
+    info:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+  },
+  {
+    id: 6,
+    hotel: "thailand resort",
+    img: "./img/thailand.jpg",
+    location: "thailand",
+    info:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+  },
+  {
+    id: 7,
+    hotel: "greece hotel",
+    img: "./img/greece.jpg",
+    location: "greece",
+    info:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+  },
+  {
+    id: 8,
+    hotel: "mandalay bay",
+    img: "./img/mandalayBay.jpg",
+    location: "united states",
+    info:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
   }
 ];
