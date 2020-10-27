@@ -7,6 +7,11 @@
     justify-content: center;
     color: $primaryWhite;
   }
+  .logoHome {
+    height: 70px;
+    width: 70px;
+}
+
   .banner {
     text-align: center;
     background: $primaryBlueOpaque;
@@ -17,7 +22,7 @@
 
     h1 {
       font-size: 2.4rem;
-      text-transform: uppercase;
+      text-transform: capitalize;
       letter-spacing: normal;
       margin-bottom: 2rem;
     }
@@ -33,3 +38,28 @@
       margin-bottom: 3rem;
     }
   }
+
+  // logo
+@media screen and (max-width: 538px){
+  .logoHome{
+  height: 50px;
+  width: 50px;
+  }
+}
+
+@media screen and (max-width: 538px){
+  .banner{
+    padding: 1rem;
+    padding-bottom: 0rem;
+
+    h1{
+      font-size: 1.8rem;
+    } 
+    h2{
+      font-size: 1.4rem;
+    }
+    h3{
+      font-size: 1rem;
+    }
+  }
+}
