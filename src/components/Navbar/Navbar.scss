@@ -21,30 +21,13 @@
     color: $primaryWhite;
     text-transform: capitalize;
     text-decoration: none;
-    // font-size: 1.5rem;
     transition: all 0.3s linear;
     &:hover{
         color: $darkBlue;
     }
 }
-.active {
-    color: $darkBlue;
-}
-.logo {
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
-}
 
-// logo
-@media screen and (max-width: 538px){
-    .logo{
-    height: 40px;
-    width: 40px;
-    }
-}
-
-// navbar font
+// nav-links font
 @media screen and (min-width: 538px){
     .nav-link {
         font-size: 1.2rem;        
@@ -60,6 +43,24 @@
         font-size: 1.8rem;        
     }
 }
+
+.active {
+    color: $darkBlue;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+// logo
+@media screen and (max-width: 538px){
+    .logo{
+    height: 30px;
+    width: 30px;
+    }
+}
+
 
 
 

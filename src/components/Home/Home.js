@@ -26,7 +26,7 @@ export default function Home() {
     <img className='logoHome' src={logoHome} alt='tourist hotels logo' />
         <h1>tourist hotels</h1>
         <h2> Best memories start here</h2>
-        <h3> See available hotels and make your reservation.</h3>
+        <h3> See available hotels and make your reservation</h3>
     </div>
     </header>
     )
