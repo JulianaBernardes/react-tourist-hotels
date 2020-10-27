@@ -1,9 +1,11 @@
 @import '../../index.scss';
-.navbar {
+.navbar { 
     background: $primaryBlueOpaque;
     padding: 0.5rem 1rem;
     display: grid;
-    grid-template-columns: auto 1fr;      
+    grid-template-columns: auto 1fr;
+    position: fixed;
+    width: 100%;
 }
 .nav-links {
     align-self: center;
@@ -30,6 +32,7 @@
 .logo {
     height: 50px;
     width: 50px;
+    margin-left: 20px;
 }
 
 // logo

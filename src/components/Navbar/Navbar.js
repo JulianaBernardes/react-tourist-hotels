@@ -3,9 +3,12 @@ import './Navbar.scss';
 import logo from '../../logo.png'
 
 export default function Navbar() {
-    return (
+    return (        
         <nav className="navbar">
-            <img className='logo' src={logo} alt='tourist hotels logo' />
+            <a href='/'>
+               <img className='logo' src={logo} alt='tourist hotels logo' /> 
+            </a>
+            
             <ul className="nav-links">
                 <li>
                     <a href="/" className='nav-link'>
@@ -20,5 +23,6 @@ export default function Navbar() {
                         about</a>
                 </li>
             </ul>
-        </nav>)
+        </nav>
+        )
 }
