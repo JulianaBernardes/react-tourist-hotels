@@ -3,7 +3,7 @@
     background: $primaryBlueOpaque;
     padding: 0.5rem 1rem;
     display: grid;
-    grid-template-columns: auto 1fr;    
+    grid-template-columns: auto 1fr;      
 }
 .nav-links {
     align-self: center;
@@ -48,12 +48,12 @@
 }
 @media screen and (min-width: 992px){
     .nav-link {
-        font-size: 1.6rem;        
+        font-size: 1.4rem;        
     }
 }
 @media screen and (min-width: 1140px){
     .nav-link {
-        font-size: 2.0rem;        
+        font-size: 1.8rem;        
     }
 }
 
