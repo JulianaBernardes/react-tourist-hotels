@@ -6,6 +6,7 @@
     grid-template-columns: auto 1fr;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .nav-links {
     align-self: center;
