@@ -1,0 +1,35 @@
+@import '../../index.scss';
+
+  .entrance {
+    min-height: calc(100vh - 60px);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primaryWhite;
+  }
+  .banner {
+    text-align: center;
+    background: $primaryBlue;
+    display: inline-block;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    overflow: hidden;    
+
+    h1 {
+      font-size: 2.4rem;
+      text-transform: uppercase;
+      letter-spacing: normal;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+      text-transform: none;
+      letter-spacing: normal;
+      margin-bottom: 1rem; 
+    }
+    h3 {
+      font-size: 1.2rem;
+      letter-spacing: normal;
+      margin-bottom: 3rem;
+    }
+  }

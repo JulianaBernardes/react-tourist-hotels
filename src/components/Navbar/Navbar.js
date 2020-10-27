@@ -13,11 +13,11 @@ export default function Navbar() {
                 </li>
                 <li>
                     <a href="/" className='nav-link'>
-                        about</a>
+                        hotels</a>
                 </li>
                 <li>
-                    <a href="/" className='nav-link active'>
-                        hotels</a>
+                    <a href="/" className='nav-link'>
+                        about</a>
                 </li>
             </ul>
         </nav>)
