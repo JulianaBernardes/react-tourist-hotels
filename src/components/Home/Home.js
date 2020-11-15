@@ -5,20 +5,21 @@ import logoHome from '../../logo.png'
 
 
 export default function Home() {
+
+    const videoStyle = {
+        position: "absolute",
+        width: "100%",
+        left: "50%",
+        top: "50%",
+        height: "100%",
+        objectFit: "cover",
+        transform: "translate(-50%, -50%)",
+        zIndex: "-1"
+    }
     return (
     <header className="entrance">
 
-        <video autoPlay loop muted
-        style={{
-            position: "absolute",
-            width: "100%",
-            left: "50%",
-            top: "50%",
-            height: "100%",
-            objectFit: "cover",
-            transform: "translate(-50%, -50%)",
-            zIndex: "-1"
-        }}>
+        <video autoPlay loop muted style={videoStyle}>
             <source src={homeVideo} type="video/mp4"/>
         </video>
 
