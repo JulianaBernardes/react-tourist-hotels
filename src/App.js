@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import './App.scss';
 import HotelList from './components/HotelList';
 import Home from './components/Home/Home'
+import About from './components/About/About'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Navbar />
         <Home />
         <HotelList />
+        <About />
       </main>
     )
   }
