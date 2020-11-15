@@ -21,7 +21,7 @@ var phantom = {
 
 function Footer() {
     return (
-        <div className="footer">
+        <div >
             <div style={phantom} />
             <div style={style}>
                 <div>
