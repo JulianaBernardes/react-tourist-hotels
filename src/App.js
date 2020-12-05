@@ -14,7 +14,6 @@ class App extends Component {
         <Home />
         <HotelList />
         <About />
-        <Footer />
       </main>
     )
   }
