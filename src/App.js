@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import Routes from './Routes'
+
 import Navbar from './components/Navbar/Navbar';
 import './App.scss';
-import HotelList from './components/HotelList';
-import Home from './components/Home/Home'
-import About from './components/About/About'
 import Footer from './components/Footer/Footer'
 
 class App extends Component {
   render() {
     return (
-      <main>
-        <Navbar />
-        <Home />
-        <HotelList />
-        <About />
-      </main>
+      <BrowserRouter>
+        <main>
+          <Navbar />
+          <Routes />
+          <Footer />
+        </main>
+      </BrowserRouter>
     )
   }
 }
