@@ -13,7 +13,6 @@ class App extends Component {
         <main>
           <Navbar />
           <Routes />
-          <Footer />
         </main>
       </BrowserRouter>
     )
