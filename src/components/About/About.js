@@ -6,7 +6,7 @@ import './About.scss';
 function About() {
     return (
         <article className="main">
-            <div class="container">
+            <div className="container">
                 <h2><strong>Tourist Hotels</strong>
                 <br />
                 Excepteur sint occaecat cupidatat non proident</h2>
