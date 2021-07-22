@@ -4,7 +4,6 @@ import Routes from './Routes'
 
 import Navbar from './components/Navbar/Navbar';
 import './App.scss';
-import Footer from './components/Footer/Footer'
 
 class App extends Component {
   render() {
